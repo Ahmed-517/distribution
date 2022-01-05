@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birnoulli Distribution</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <input id="p" type="number" placeholder="Value of P">
+
+        <input type="submit" title="Click Here To Show the graph" onclick="graph()">
+        <button onclick="graph()">Show Graph</button>
+    </section>
+
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <div id="comment"></div>
+    
+    <footer>
+        <span>Ahmed Gamal Goda</span> -
+        <span>Ahmed Gamal Khairy</span> -
+        <span>Ahmed Adel Mohamed</span>
+        <a href="../index.html">Back To The Main Page</a>
+    </footer>
+
+    <!-- Script -->
+    <script src="canvasjs.min.js"></script>
+    <script src="script-birnouli.js"></script>
+</body>
+</html>

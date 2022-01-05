@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binomial Distribution</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <input id="r" type="number" placeholder="Value Of r">
+        <input id="n" type="number" placeholder="Value Of n">
+        <input id="m" type="number" placeholder="Value Of m">
+
+        <input id="x1" type="text" placeholder="k1">
+        <input id="x2" type="text" placeholder="k2">
+        <input id="x3" type="text" placeholder="k3">
+        <input id="x4" type="text" placeholder="k4">
+        <input id="x5" type="text" placeholder="k5">
+
+        <input type="button" value="Show Graph" onclick="graph()">
+        <input id="vMax" type="number" placeholder="viewportMaximum">
+    </section>
+
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    
+    
+    <footer>
+        <span>Ahmed Gamal Goda</span> -
+        <span>Ahmed Gamal Khairy</span> -
+        <span>Ahmed Adel Mohamed</span>
+        <a href="../index.html">Back To The Main Page</a>
+    </footer>
+
+    <!-- Script -->
+    <script src="canvasjs.min.js"></script>
+    <script src="script-hyper.js"></script>
+</body>
+</html>
