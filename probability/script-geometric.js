@@ -49,9 +49,6 @@ function graph() {
         },
         data: [{        
             type: "column",  
-            showInLegend: true, 
-            legendMarkerColor: "grey",
-            legendText: "MMbbl = one million barrels",
             dataPoints: [      
                 { y: p1,  label: "X = " + input1.value },
                 { y: p2,  label: "X = " + input2.value },

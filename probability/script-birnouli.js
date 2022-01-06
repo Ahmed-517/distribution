@@ -17,12 +17,9 @@ function graph() {
             },
             data: [{        
                 type: "column",  
-                showInLegend: true, 
-                legendMarkerColor: "grey",
-                legendText: "MMbbl = one million barrels",
                 dataPoints: [      
-                    { y: p, label: "X = 1"},
                     { y: (1-p), label: "X = 0"},
+                    { y: p, label: "X = 1"},
                     { y: 0,  label: "otherwise"}
                 ]
             }]
@@ -32,7 +29,7 @@ function graph() {
     }
 
     else {
-        com.innerHTML = "Please Enter Number between 0 and 1";
+        com.innerHTML = "Enter a number between 0 and 1";
     }
 }
 
